@@ -11,6 +11,7 @@ import numpy as np
 path = "./nuclei/t%03d-nuclei"
 cell_list = []
 schedule_agents = []
+
 # Cell Agent Class - The Agent in Deep RL is the cell itself
 class Cell_Agent(Agent):
     def __init__(self, id, mesa_model, cell_name, cell_location, cell_diameter):
