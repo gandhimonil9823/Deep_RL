@@ -60,6 +60,7 @@ class DQN(object):
             value = self.prediction_network.forward(input_array)
             action_to_take = torch.max(value, 1)[1].data.numpy()[0]
             return action_to_take
+
 # save the training samples which are the St, At, Rt and St + 1
     def save_transition(self, state, action, reward, start_next):
         transition = np.hstack((state, [action, reward], start_next))
