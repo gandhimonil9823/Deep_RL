@@ -1,4 +1,4 @@
-## Deep_RL - AN Implementation for Analysis Cell Movement Using Agent Modeling Framework and Depp Reinforcement Learning
+## Deep_RL - An Implementation for Analysis of Cell Movement using Agent based Modeling Framework and Deep Reinforcement Learning
 
 ### Structure
 
